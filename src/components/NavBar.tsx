@@ -77,7 +77,7 @@ const NavBar: React.FC<NavBarProps> = ({ onLoginClick, onSignupClick, onUpgradeC
         {/* Right side content */}
         <div className="flex items-center gap-4">
 
-          {/* Learn Space button - only when logged in */}
+          {/* Learning Space button - only when logged in */}
           {currentUser && (
             <div className="relative hidden md:block">
               {/* Gradient border container */}
@@ -90,7 +90,7 @@ const NavBar: React.FC<NavBarProps> = ({ onLoginClick, onSignupClick, onUpgradeC
                 variant="ghost"
                 className="relative h-[42px] bg-transparent rounded-md border-none text-white text-sm font-normal font-['Pretendard-Regular',Helvetica] tracking-[-0.21px] px-3 hover:bg-transparent hover:text-white"
               >
-                Learn Space
+                Learning Space
               </Button>
             </div>
           )}

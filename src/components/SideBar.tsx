@@ -521,11 +521,11 @@ const SideBar: React.FC<SideBarProps> = ({ onUpgradeClick, onLoginClick }) => {
                   </div>
                 </div>
 
-                {/* Learn Space Section */}
+                {/* Learning Space Section */}
                 <div className="relative self-stretch w-full border-b border-[#575757] pb-4">
                   <div className="flex items-center justify-between px-[18px] pt-[15px] mb-3">
                     <h3 className="font-['Pretendard-Medium',Helvetica] font-medium text-white text-sm tracking-[-0.21px] leading-[22px]">
-                      Learn Space
+                      Learning Space
                     </h3>
                     <button
                       onClick={handleLearningSpaceClick}
@@ -691,11 +691,11 @@ const SideBar: React.FC<SideBarProps> = ({ onUpgradeClick, onLoginClick }) => {
               </div>
             </div>
 
-            {/* Learn Space Section */}
+            {/* Learning Space Section */}
             <div className="relative self-stretch w-full border-b border-[#575757] pb-4">
               <div className="flex items-center justify-between px-[18px] pt-[15px] mb-3">
                 <h3 className="font-['Pretendard-Medium',Helvetica] font-medium text-white text-sm tracking-[-0.21px] leading-[22px]">
-                  Learn Space
+                  Learning Space
                 </h3>
                 <button
                   onClick={handleLearningSpaceClick}
